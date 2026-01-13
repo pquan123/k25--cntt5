@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(225, 238, 250);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            background-color: rgb(194, 242, 226);
+            text-align: center;
+            text-transform: capitalize;
+            color: rgb(52, 146, 114);
+        }
+        header{
+            text-align: center;
+        }
+        header h3 {
+            background-color: rgb(177, 211, 239);
+            text-align: center;
+            text-transform: capitalize;
+            color: rgb(87, 154, 242);
+            font-weight: bold;
+        }
+        header img{
+            text-align: center;
+        }
+        main{
+            background-color: aliceblue;
+            text-align: center
+        }
+        
+        footer{
+            background-color: rgb(3, 91, 80);
+            text-align: center;
+            color: aliceblue;
+
+        }
+        .text {
+            background-color: rgba(155, 155, 225, 0.804);
+            color: #0072C6;
+            font-weight: bold;
+            
+        }
+        .text a:hover{
+            background-color: rgb(110, 208, 208);
+            color: white;
+        }
+        .remove{
+            text-decoration: none;
+            color: rgb(26, 122, 177);
+        }
+        label{
+            color: rgb(3, 91, 80);
+            font-weight: bold;
+        }
+        button{
+            background-color: rgba(12, 118, 54, 0.888);
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        button:hover{
+            background-color:rgba(58, 184, 108, 0.888) ;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Nha Khoa Chăm Sóc Nụ Cười Việt </h1>
+        <section>
+        <div class="text">
+            <a href="./Baitap.html" class="remove">Trang chủ</a>
+            <a href="./Dangki.html" class="remove">Đăng kí</a>
+            <a href="./Dichvu.html" class="remove">Đăng kí lịch khám</a>
+        </div>
+    </header>
+    <br>
+
+    <main>
+        <label for="name">Họ và tên</label>
+        <br>
+        <input type="text" id="name" placeholder="Nhập họ tên">
+        <br><br>
+        <label for="email">Email</label>
+        <br>
+        <input type="text" id="email" placeholder="example@gmail.com">
+        <br><br>
+        <label for="number">Số điện thoại</label>
+        <br>
+        <input type="number">
+        <br><br>
+        <label for="dvu">Chọn dịch vụ</label>
+        <br>
+        <select>
+            <option value="kham">Khám răng tổng quát</option>
+            <option value="kham1">Lấy cao răng</option>
+            <option value="kham2">Tẩy trắng răng</option>
+            <option value="kham3">Niềng răng</option>
+        </select>
+        <br><br>
+        <label for="date">Ngày khám</label>
+        <br>
+        <input type="date">
+        <br><br>
+        <label for="note">Ghi chú thêm</label>
+        <br>
+        <textarea name="ten" id="note" placeholder="Yêu cầu thêm...."></textarea>
+        <br><br>
+        <button>Gửi đăng kí</button>
+        <br><br>
+
+    </main>
+    <footer>
+        <p>&copy;2026 Nha Khoa Chăm Sóc Nụ Cười Việt</p>
+        <p>Địa chỉ : 123 Đường Nụ Cười - Hotline : 0900 000 000 </p>
+    </footer>
+</body>
+
+</html>
